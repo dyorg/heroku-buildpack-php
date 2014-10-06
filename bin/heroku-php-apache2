@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "test heroku-php-apache2"
+
 # fail hard
 set -o pipefail
 # fail harder
