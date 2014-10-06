@@ -2,6 +2,8 @@
 
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
+status "Installing compile script..."
+
 install_ext () {
     local ext=$1
     local reason=${2:-}
