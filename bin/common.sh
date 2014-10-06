@@ -1,3 +1,5 @@
+status "Installing common script..."
+
 error() {
   echo
   echo " !     ERROR: $*" | indent no_first_line_indent
